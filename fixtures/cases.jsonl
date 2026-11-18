@@ -1,0 +1,3 @@
+{"id":"summary-has-keyword","actual":"The refund was processed.","assertions":[{"type":"contains","value":"refund"}]}
+{"id":"json-output-shape","actual":{"label":"positive","score":0.93},"assertions":[{"type":"json_path","path":"$.label","expected":"positive"},{"type":"schema","schema":{"type":"object","required":["label","score"],"properties":{"label":{"type":"string"},"score":{"type":"number","minimum":0,"maximum":1}}}}]}
+{"id":"exact-response","actual":"Hello, Ada!","expected":"Hello, Ada!","assertions":[{"type":"exact"}]}
